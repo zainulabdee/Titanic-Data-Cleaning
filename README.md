@@ -14,9 +14,9 @@ Detecting and removing outliers
 📁 Project Structure
 
 /titanic-data-cleaning
- │ ├── titanic.csv # Dataset file 
-   ├── titanic_preprocessing.ipynb # Main Jupyter notebook 
-   └── README.md # Project overview and instructions
+  │ ├── titanic.csv # Dataset file 
+    ├── titanic_preprocessing.ipynb # Main Jupyter notebook 
+    └── README.md # Project overview and instructions
 
 🛠️ Tools & Libraries Used
 
