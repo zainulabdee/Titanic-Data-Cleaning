@@ -14,9 +14,9 @@ Detecting and removing outliers
 📁 Project Structure
 
 /titanic-data-cleaning
-│ ├── titanic.csv # Dataset file 
-  ├── titanic_preprocessing.ipynb # Main Jupyter notebook 
-  └── README.md # Project overview and instructions
+ │ ├── titanic.csv # Dataset file 
+   ├── titanic_preprocessing.ipynb # Main Jupyter notebook 
+   └── README.md # Project overview and instructions
 
 🛠️ Tools & Libraries Used
 
@@ -37,9 +37,10 @@ Scikit-learn – preprocessing (scaling, encoding)
 4. Converted categorical variables:
   -Sex: label encoding (male → 0, female → 1)
   -Embarked: one-hot encoding
-5. Standardized** numerical columns (Age and Fare) using StandardScaler
-6. Visualized and removed outliers** in Fare using a boxplot
+5. Standardized numerical columns (Age and Fare) using StandardScaler
+6. Visualized and removed outliers in Fare using a boxplot
 7. Final data inspection** with .info() and .head()
+   
 📊 Sample Output
 
 A sample of the cleaned DataFrame after preprocessing:
